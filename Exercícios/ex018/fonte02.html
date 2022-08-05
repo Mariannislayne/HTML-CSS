@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family:'filxgirl' ;
+            src: url('fonts/Filxgirl.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            tipos de format:
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple 
+            advenced typography)
+            - svg
+            */
+        }
+
+        body{
+            font: lighter 1em arial, helvetica, sans-serif;
+        }
+
+        h1{
+            font: bold 4em 'filxgirl', arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quidem quia aut vitae dolores accusamus aperiam, reiciendis suscipit, eum vel incidunt saepe fuga illo explicabo tenetur nihil porro velit odit!</p>
+</body>
+</html>

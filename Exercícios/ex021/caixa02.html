@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Grouping Tags em HTML5</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #EDE9DD;
+            margin: 0px;
+        }
+
+      header{
+        color: #713E47;
+        text-align: center;
+      }
+
+      nav{
+        background-color: #cecbc6;
+        padding: 6px;
+        box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.37);
+      }
+
+      nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 35px;
+      }
+
+      nav > a:hover{
+        text-decoration: underline;
+        color: #C15A0F;
+      }
+
+      nav > a:active{
+        color: rgb(245, 245, 89);
+      }
+
+      main{
+        background-color: white;
+        border-radius: 30px 0px;
+        box-shadow: 8px 6px 6px 1px rgba(0, 0, 0, 0.39);
+        padding: 10px;
+        margin: 20px 20px 20px 20px;
+        text-align: justify;
+      }
+      
+      #historico{
+        background-color: #EDE9DD;
+        padding: 5px 5px 20px 5px;
+        margin: 10px 10px 25px 10px;
+      }
+
+      #historico > h1{
+        color: #BF5111;
+        text-align: center;
+      }
+
+      #historico > aside{
+        background-color: #cecbc6;
+        text-align: right;
+      }
+
+      article{
+        background-color: #EDE9DD;
+        padding: 5px 5px 20px 5px;
+        margin: 10px;
+      }
+
+      article > h1{
+        color: #BF5111;
+        text-align: center;
+      }
+
+      article > aside{
+        background-color: #cecbc6;
+        text-align: right;
+      }
+
+      footer{
+        background-color: #6b6a65;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+      }
+
+      div{
+        text-align: center;
+        margin-top: 35px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="historico">
+                <h1>História da arte</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi officiis porro ipsa voluptates quod eos repellendus optio provident aut reiciendis, illum quae! Nihil, ab magnam adipisci nostrum deserunt dignissimos! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem in placeat nostrum! Laborum dolore illo tenetur commodi vero harum sapiente, neque expedita similique, non ipsam veniam accusamus unde cumque ipsum.</p>
+                <aside>
+                    Escrito por Fulano de tal
+                </aside>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h1>Surgimento da tipografia</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dignissimos illo impedit enim veniam voluptatem cumque quibusdam odio. Tempora, repellendus ipsa nemo recusandae cupiditate expedita dignissimos vero error ratione quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum ipsam alias tenetur rerum quae modi, quis eligendi suscipit quisquam blanditiis ullam quia quaerat expedita culpa mollitia harum at! Alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse sed a suscipit alias placeat voluptas dolore eum ducimus, tenetur dolor quod animi, provident perferendis quas et aut officia explicabo culpa!</p>
+                <aside>
+                    Escrito por fulano de tal
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Maria Annislayne
+    </footer>
+    
+    <div><a href="caixa01.html"><img src="imagens/botao-voltar.png" alt="botao-voltar"></a> <a href="caixa03.html"><img src="imagens/botao-ir.png" alt="botao-ir"></a></div>
+</body>
+</html>
